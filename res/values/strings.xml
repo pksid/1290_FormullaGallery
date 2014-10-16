@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Formula_Gallery</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_formula">Formula</string>
+    <string name="title_activity_maths">Maths</string>
+    <string name="title_activity_physics">Physics</string>
+    <string name="title_activity_chem">Chem</string>
+    <string name="title_activity_chem__formula__list">Chem_Formula_List</string>
+    <string name="title_activity_formula_list">FormulaList</string>
+    <string name="title_activity_math__formula">Math_Formula</string>
+    <string name="title_activity_periodic_table">PeriodicTable</string>
+    <string name="title_activity_calc">Calc</string>
+    <string name="title_activity_cnst_menu">CnstMenuActivity</string>
+
+</resources>

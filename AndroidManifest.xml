@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.formula_gallery"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.formula_gallery.FormulaGallery"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.formula_gallery.Formula"
+            android:label="@string/title_activity_formula" >
+        </activity>
+        <activity
+            android:name="com.example.formula_gallery.Maths"
+            android:label="@string/title_activity_maths" >
+        </activity>
+        <activity
+            android:name="com.example.formula_gallery.Physics"
+            android:label="@string/title_activity_physics" >
+        </activity>
+        <activity
+            android:name="com.example.formula_gallery.Chem"
+            android:label="@string/title_activity_chem" >
+        </activity>
+        <activity
+            android:name="com.example.formula_gallery.Chem_Formula_List"
+            android:label="@string/title_activity_chem__formula__list" >
+        </activity>
+        <activity
+            android:name="com.example.formula_gallery.FormulaList"
+            android:label="@string/title_activity_formula_list" >
+        </activity>
+        <activity
+            android:name="com.example.formula_gallery.Math_Formula"
+            android:label="@string/title_activity_math__formula" >
+        </activity>
+        <activity
+            android:name="com.example.formula_gallery.PeriodicTable"
+            android:label="@string/title_activity_periodic_table" >
+        </activity>
+        <activity
+            android:name="com.example.formula_gallery.Calc"
+            android:label="@string/title_activity_calc" >
+        </activity>
+        <activity
+            android:name="com.example.formula_gallery.CnstMenuActivity"
+            android:label="@string/title_activity_cnst_menu" >
+        </activity>
+    </application>
+
+</manifest>
